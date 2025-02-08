@@ -3,6 +3,8 @@
 A simple and interactive ToDo app built using **React.js** and **Axios** to help you manage your tasks seamlessly. This app allows you to **add**, **edit**, and **delete** tasks with a smooth and responsive interface.
 
 > **"Stay organized, get things done!"**
+> ![image](https://github.com/user-attachments/assets/98eb7953-1f17-4669-b9bb-5f1e217cff44)
+
 
 ## 🌟 **Key Features** 🌟
 
@@ -52,7 +54,7 @@ npm start
 -The API will be available at http://localhost:8000.
 -API documentation will be available at http://localhost:8000/docs.
 
-**Thanks for checking out this project!🚀**
+## **Thanks for checking out this project!🚀**
 
 
 
