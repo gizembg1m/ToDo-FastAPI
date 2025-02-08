@@ -44,15 +44,15 @@ npm start
 ## **Step 5: Open your browser and go to http://localhost:3000**
 
 ## **To get the backend up and running locally:**
-# cd backend
-# pip install fastapi uvicorn
-# uvicorn main:app --reload
+#cd backend
+#pip install fastapi uvicorn
+#uvicorn main:app --reload
 
 ## **Access the API:**
 The API will be available at http://localhost:8000.
 API documentation will be available at http://localhost:8000/docs.
 
-## **Thanks for checking out this project!🚀**
+**Thanks for checking out this project!🚀**
 
 
 
