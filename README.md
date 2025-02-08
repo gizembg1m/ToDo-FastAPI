@@ -20,14 +20,13 @@ A simple and interactive ToDo app built using **React.js** and **Axios** to help
   - Custom CSS for styling
 - **Backend**: Mock API (simulated locally)
 
-# 🔥 Usage Instructions 🔥
-# 1. Add a New Task: Type in the input box and click the + Add button.
-# 2. Edit an Existing Task: Click on the task, modify it, and click Save.
-# 3. Delete a Task: Click the Delete button, and confirm deletion when prompted.
+## 🔥**Usage Instructions** 🔥
+ 1. Add a New Task: Type in the input box and click the + Add button.
+ 2. Edit an Existing Task: Click on the task, modify it, and click Save.
+ 3. Delete a Task: Click the Delete button, and confirm deletion when prompted.
 
   
 ## 📥 **Installation Guide** 📥
-
 Follow these steps to get this project up and running locally:
 
 ## **Step 1: Clone the repository**
@@ -45,15 +44,15 @@ npm start
 ## **Step 5: Open your browser and go to http://localhost:3000**
 
 ## **To get the backend up and running locally:**
-cd backend
-pip install fastapi uvicorn
-uvicorn main:app --reload
+# cd backend
+# pip install fastapi uvicorn
+# uvicorn main:app --reload
 
 ## **Access the API:**
 The API will be available at http://localhost:8000.
 API documentation will be available at http://localhost:8000/docs.
 
-# ** Thanks for checking out this project! 🚀 **
+## **Thanks for checking out this project!🚀**
 
 
 
