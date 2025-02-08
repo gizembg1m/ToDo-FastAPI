@@ -1,0 +1,159 @@
+/* Sayfa görünümü */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+
+
+/* Ana kapsayıcı */
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    width: 450px;  /* Genişlik artırıldı */
+    text-align: center;
+}
+
+/* Başlık */
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    display: block; /* Eğer gizlenmişse görünür yap */
+    text-transform: uppercase; /* Yazıyı büyük harfe dönüştür */
+    letter-spacing: 1px; /* Harfler arası mesafeyi artır */
+    font-family: 'Arial', sans-serif; /* Şık bir font */
+    background: linear-gradient(to right, #4731a3, #b27bfe); /* Gradient arka plan */
+    -webkit-background-clip: text; /* Arka planı sadece yazıya uygula */
+    color: transparent; /* Yazının rengini transparan yap */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+label {
+    font-size: 16px; /* Yazı boyutunu ayarla */
+    font-weight: bold; /* Yazıyı kalın yap */
+    color: #4731a3; /* Yazı rengini belirle */
+    display: inline-block; /* Etiketin blok gibi görünmesini sağlar */
+    margin-bottom: 10px; /* Altına boşluk bırak */
+    font-family: 'Arial', sans-serif; /* Şık bir font */
+    text-transform: capitalize; /* İlk harfleri büyük yap */
+    letter-spacing: 1px; /* Harfler arası mesafeyi artır */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+/* Input alanı ve buton hizalama */
+.input-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: center;  Ortalamak için */
+    gap: 10px; /* Input ve buton arasındaki boşluk */
+    width: 100%;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    background: #f1f1f1;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* Input */
+.input-todo {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    min-width: 200px;
+    background: white;
+}
+
+/* Buton */
+.add-button {
+    background: #4731a3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+    min-width: 100px;
+    text-align: center;
+}
+
+.add-button:hover {
+    background: #342188;
+    transform: scale(1.05);
+}
+
+/* Todo listesi */
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+/* Todo öğeleri */
+.todo-item {
+    background: rgba(255, 255, 255, 0.81);
+    padding: 4px;
+    margin-bottom: 5px;
+    border-radius: 9px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+
+    align-items: center;
+    transition: 0.3s;
+}
+
+.todo-item form{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Son öğenin alt boşluğu olmaması */
+.todo-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Todo öğesi üzerine gelindiğinde animasyon */
+.todo-item:hover {
+    background: #f8f9fa;
+    transform: translateX(5px);
+}
+
+.todo-item input{
+    border: none;
+    background-color: transparent;
+
+}
+
+.delete-btn{
+    cursor: pointer;
+    border:none;
+    border-radius: 6px;
+    background-color: #4731a3;
+    color:white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+    margin-left: 5px;
+}
+
+.update-btn{
+    cursor: pointer;
+    border:none;
+    border-radius: 6px;
+    background-color: #25b6a9;
+    color:white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+}
