@@ -30,30 +30,30 @@ A simple and interactive ToDo app built using **React.js** and **Axios** to help
 
 Follow these steps to get this project up and running locally:
 
-# Step 1: Clone the repository
+## **Step 1: Clone the repository**
 git clone https://github.com/gizembg1m/todo-app.git
 
-# Step 2: Navigate to the project folder
+## **Step 2: Navigate to the project folder**
 cd todo-app
 
-# Step 3: Install the necessary dependencies
+## **Step 3: Install the necessary dependencies**
 npm install
 
-# Step 4: Start the development server
+## **Step 4: Start the development server**
 npm start
 
-# Step 5: Open your browser and go to http://localhost:3000
+## **Step 5: Open your browser and go to http://localhost:3000**
 
-# To get the backend up and running locally:
+## **To get the backend up and running locally:**
 cd backend
 pip install fastapi uvicorn
 uvicorn main:app --reload
 
-# Access the API:
+## **Access the API:**
 The API will be available at http://localhost:8000.
 API documentation will be available at http://localhost:8000/docs.
 
-# ** Thanks for checking out this project! 🚀 **
+## ** Thanks for checking out this project! 🚀 **
 
 
 
